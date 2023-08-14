@@ -1,25 +1,26 @@
 /*  your css code here. If applicable */
-#inner{
-	display:flex;
-	 width: 100px;
-     height: 100px;
-     background-color: rgb(128,0,128);
-     border-radius: 50%;
-     margin: 25px;
-	border:25px solid rgb(0,0,255);
+#outer{
+	width:300px;
+	height:300px;
+	border-radius:50%;
+	
+	background-color:#ffa500;
+	border:25px solid #ff0000;
+	
 }
 #middle{
-  width: 200px;
-  height: 200px;
-  background-color: rgb(0,128,0);
-  border-radius: 50%;
-  border:25px solid rgb(255,255,0);
-  margin: 25px;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	border:25px solid #ffff00;
+	background-color:#008000;
+	margin:25px;
 }
-#outer{
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	background-color: rgb(255, 165, 0);
-	border: 25px solid rgb(255, 0, 0);
+#inner{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	margin:25px;
+	background-color:#800080;
+	border:25px solid #0000ff;
 }
